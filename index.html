@@ -3,36 +3,69 @@
     <head>
         <title>curriculum vitae</title>
         <meta charset="utf-8">
+        <style>
+            table, 
+            th, 
+            td{
+                padding : 2px;
+                border : 1px solid black;
+                border-color : collapse;
+            }
+        </style>
     </head>
     <body>
-        <!-- ici  je vais mettre un titre --> 
+
         <h1><u>Curriculum Vitae</u></h1><br>
-        <h2><u>IDENTITE</u></h2><br>
+        <a href=""><img scr"image/photoprofil.jpg" alt="photo de profil" width="80px" height="100px"></a>
+        <h2><u>IDENTITE</u></h2>
         <ul>
             <li><b>Nom :</b> <i>BANZA</i> </li>
              <li><b>Post-nom :</b> <i>MUSHIKONKE</i> </li>
             <li><b>Prénom :</b> <i>Josué</i> </li>
             <li><b>Etat_civil:</b> <i>Célibataire</i> </li>
-            <li><b>Téléphone :</b>+243 90 29 60 927 </li>
-        </ul>    
-        <br>
-        <h2><u>Etudes Faites</u></h2><br>
-        <ul>
-            <li><b>2022 :</b> <i>Collège Notre Dame d'Afrique</i>  Diplôme d'Etat </li>
-            <li><b>2016 :</b> <i>Ecole Notre de la Pentecote</i>  </li>
+            <li><b>Téléphone :</b>+243902960927 </li>
         </ul>
-        <br>
-        <h2><u> Langues parlées</u></h2><br>
+        <h2><u>Etudes Faites</u></h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Année</th>
+                    <th>Etablissement</th>
+                    <th>Niveau</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><b>2022 :</b></td>
+                    <td><i>Collège Notre Dame d'Afrique</i></td>
+                    <td>Diplôme d'Etat</td>
+                </tr>
+                <tr>
+                    <td><b>2016 :</b></td>
+                    <td><i>Ecole Notre de la Pentecote</i></td>
+                    <td>Certificat de fin d'étude primaire</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2><u> Langues parlées</u></h2>
         <ul>
-            <li><b>Français:</b> <i>Très bien</i> </li>
-             <li><b>Swahili :</b> <i>assez bien</i> </li>
+            <li><b>Français:</b> <i>Très bien</i></li>
+            <li><b>Swahili :</b> <i>assez bien</i></li>
             <li><b>Lingala :</b> <i>bien</i> </li>
-            <li><b>Anglais :</b> <i>entre B2 & C1</i> </li>
-        </ul>    
-        <p> Je jure sur mon honore que les informations fournie ci-haut sont vraies et dignes de confiance.</p><br>
-            
-             <a href="contact.html">Mes contacts</a> <!-- balisse bloc et ballisse ?-->
-
+            <li><b>Anglais :</b> <i>entre B2 & C1</i></li>
+        </ul>
+        <p> Je jure sur mon honore que les informations fournies ci-haut sont vraies et dignes de confiance.</p>
+        <p>Pour plus de contact <a href="contact.html">Cliquez Ici</a></p>
+        <br>
+        <p>Comment avez vouz trouvez mon CV ?</p>
+        <input type="radio" name="appreciation" id="j'aime">
+        <label for="j'aime">j'aime</label>
+        <input type="radio" name="appreciation" id="j'adore">
+        <label for="j'adore">j'adore</label>
+        <input type="radio" name="appreciation" id="un peu">
+        <label for="un peu">j'aime un peu</label>
+        <input type="radio" name="appreciation" id="faire mieux">
+        <label for="faire mieux">peux faire mieux</label>
 
     </body>
 </html>
